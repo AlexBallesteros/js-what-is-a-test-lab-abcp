@@ -1,6 +1,6 @@
 // write your code below!
-var name = "Joe"
-var height = 74 < 40
+var name = "Susan"
+var height = expect(74).toBeLessThan(40)
 var message = ` ${name} is ${height} inches tall`
 
 module.exports = {name, height, message}
